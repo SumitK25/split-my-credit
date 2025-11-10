@@ -6,9 +6,9 @@ const Navbar = () => (
     <img src={logo} alt="Split My Credit Logo" className="navbar-logo"/>
     <ul className="navbar-links">
       <li><a href="/">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/contact">Contact</a></li>
       <li><a href="/login">Login</a></li>
     </ul>
     <div className="navbar-social">
